@@ -1,0 +1,47 @@
+//user name to identify
+git config --global user.name Revan
+
+//user mail id to identify
+git config --global user.email revansagare@gmail.com
+
+code . // used to open your code editor
+
+git init // initialize your git repository in our path
+
+ls -lart // show all hidden file in repository
+
+git status // to find the status of repository
+
+untracked = means git dont track those files yet
+
+git add (file name with space)
+
+git commit // to add file to repository
+
+type i
+Initial commit //type this on top of cmd & then write
+esc :wq //press all once to back to cmd
+
+git add -A // this cmd is used to add more than one file to all at one time in repository
+
+git commit -m "add some comment"
+
+git checkout -f // restore your files on your editor as per git avilable repository
+
+git log //it tells us user name, mail id and date time of commit
+
+git log -p -(add number here) //it will give us latest n no of commits with code change
+
+q //to quite
+
+git diff //is used to compare your git code vs current files on your editor
+
+ls // shows our all available files 
+
+git rm (file name) // to remove file from staging & local editor
+
+git rm --cached (file name) //it will remove from staging only
+
+touch .gitignoer // write this cmd in terminal directly ignored files will be here
+
+git branch (branch name)// to create a branch
